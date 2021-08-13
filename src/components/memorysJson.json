@@ -1,0 +1,27 @@
+{
+    "img":[
+        {
+            "url":"https://swiperjs.com/demos/images/nature-1.jpg"
+        },
+        {
+            "url":"https://swiperjs.com/demos/images/nature-2.jpg"
+        },
+        {
+            "url":"https://swiperjs.com/demos/images/nature-3.jpg"
+        }
+    ],
+    "story":[
+        {
+            "title":"uuland garav 1",
+            "body":"uuland garaad"
+        },
+        {
+            "title":"uuland garav 2",
+            "body":"uuland garaad"
+        },
+        {
+            "title":"uuland garav 3",
+            "body":"uuland garaad"
+        }
+    ]
+}
