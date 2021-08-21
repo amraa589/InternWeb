@@ -43,7 +43,7 @@ const Memory = () => {
                 </Col>
                 <Col sm="6" md="6" lg="6" xl="6" xs="6" className="memory-desc">
                     <div>
-                        <h2>{title}</h2>
+                        {/*<h3>{title}</h3>*/}
                         <p>{body}</p>
                     </div>
                 </Col>
@@ -59,7 +59,7 @@ const Memory = () => {
                         className="mySwiper1 mt-3"
                         >
                             {data['img'].map((url,i)=>(
-                                <SwiperSlide key={i} style={{height:'200px'}}>
+                                <SwiperSlide key={i} style={{height:'140px'}}>
                                     <img src={url['url']} />
                                 </SwiperSlide>
                             ))}

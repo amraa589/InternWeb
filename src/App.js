@@ -3,6 +3,7 @@ import NavBar from "./components/navbar";
 import Intro from "./components/intro";
 import MemberSlide from "./components/memberSlide";
 import OurMemory from "./components/ourMemory";
+import Footer from "./components/footer"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Intro/>
       <MemberSlide/>
       <OurMemory/>
+      <Footer/>
     </div>
   );
 }

@@ -1,20 +1,20 @@
-nav{
-  background-color: #5A678f;
+nav {
+  background-color: #5a678f;
 }
-.logo-img{
+.logo-img {
   width: 10rem;
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
   color: white;
 }
-.margin-sl{
+.margin-sl {
   margin: 30px 0px;
 }
 
-.Top-slide{
+.Top-slide {
   height: 100%;
 }
-.Top-slide img{
+.Top-slide img {
   height: 80vh;
 }
 .swiper-container {
@@ -52,10 +52,10 @@ nav{
 .mySwiper2 {
   width: 100%;
 }
-.story-size{
+.story-size {
   height: 300px;
 }
-.memory-slide{
+.memory-slide {
   height: 300px;
 }
 .mySwiper1 {
@@ -80,61 +80,62 @@ nav{
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
-.mySwiper .swiper-slide{
+.mySwiper .swiper-slide {
   border-radius: 30px;
   overflow: hidden;
 }
-.team-area{
+.team-area {
   width: 100%;
   border-radius: 30px;
+  border: solid 5px black;
 }
 
-.single-member{
-  box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px, rgba(58, 78, 95, 0.05) 0 -5px 16px;
+.single-member {
+  box-shadow: rgba(58, 78, 95, 0.2) 0 10px 16px,
+    rgba(58, 78, 95, 0.05) 0 -5px 16px;
 }
 
-.single-member .team-heading{
-  background-image: url('http://i.stack.imgur.com/vhoa0.jpg');
+.single-member .team-heading {
   background-size: cover;
   height: 100px;
 }
 
-.single-member .member-img{
+.single-member .member-img {
   position: relative;
   top: -50px;
   margin-bottom: -50px;
 }
-.single-member .member-img img{
+.single-member .member-img img {
   width: 100px;
   height: 100px;
   max-width: 100px;
   max-height: 100px;
-  border-radius: 50%;
   border: 5px solid black;
   display: initial;
 }
-.member-data{
+.member-data {
   padding: 5%;
   height: 200px;
 }
-.member-info h2{
+.member-info h2 {
   margin: 0;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
 }
-.member-info h3{
+.member-info h3 {
   text-transform: uppercase;
   font-size: 16px;
 }
-.member-info p{
+.member-info p {
   width: 90%;
 }
 .ins {
   background-color: blue;
 }
-.card-mid{
+.card-mid {
   margin-top: 10px;
 }
 
@@ -157,18 +158,17 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 50px;
+  padding: 30px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: fit-content;
 }
-
-.left img {
-  width: 90%;
-  height: 50px;
+.golomt_logo {
+  width: 40%;
+  height: 60px;
+  padding-left: 30px;
 }
-
 .right-header a {
   text-decoration: none;
   font-family: consolas;
@@ -176,7 +176,8 @@ nav{
   font-size: larger;
   color: #03e9f4;
   padding: 6px 20px;
-  margin: 5px;
+  margin: 15px;
+  border-radius: 5%;
 }
 
 .right-header a.active,
@@ -339,44 +340,160 @@ nav{
     width: 197.89px;
   }
 }
-.intro-header{
+.intro-header {
   margin: 20px 0;
 }
-.intro-desc{
-  margin-top: 20px;
+
+.intro-title h3 {
+  font-family: consolas;
+  color: #03075b;
+  text-transform: uppercase;
+  font-weight: 800;
 }
-.intro-intro .card{
+.intro-desc,
+.memory-desc p {
+  margin-top: 20px;
+  color: #2e3579;
+  font-size: 1.25em;
+  font-family: consolas;
+}
+.intro-header h3 {
+  font-family: consolas;
+  color: #03075b;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.card-title {
+  color: #2e3075;
+  font-family: consolas;
+  font-size: 1.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.card-text {
+  font-family: consolas;
+  color: #525690;
+  font-size: 1.125em;
+}
+.card-image {
+  /*Background image iin zurgiig tomosgoh code bicheh*/
+}
+.text-primary ins {
+  font-family: consolas;
+  color: #03075b;
+  text-transform: uppercase;
+  font-size: 1.35em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #f9f9f9;
+  border-radius: 20%;
+}
+.intro-intro .card {
   border-radius: 20px;
 }
-.zoom{
-  transition: transform .2s;
+.zoom {
+  transition: transform 0.2s;
 }
-.zoom:hover{
+.zoom:hover {
   transform: scale(1.1);
 }
-.intro-intro .card{
-  padding: 20px 40px;
-}
-.intro-intro .card img{
+
+.intro-intro .card img {
   width: 100px;
   height: 100px;
   border-radius: 20px;
 }
-.mySwiper-video{
+.mySwiper-video {
   height: 200px;
   padding: 30px;
 }
-.intro-video{
-  background:black;
+.intro-video {
   border-radius: 20px;
 }
-.mySwiper-video .swiper-slide{
+.mySwiper-video .swiper-slide {
   height: 80%;
 }
-.swiper-wrapper{
+.swiper-wrapper {
   width: 87%;
 }
-.memory-desc{
+.memory-desc {
   height: 100%;
   overflow-y: auto;
+}
+
+.text-center .intro-header h3 {
+  text-transform: uppercase;
+}
+/*Footer setup*/
+.footer {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  padding-left: 5%;
+}
+
+.footer_two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.footer_three {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+  padding-right: 5%;
+}
+
+.footer_one a {
+  text-decoration: none;
+  font-family: consolas;
+  font-size: medium;
+  color: antiquewhite;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.footer_two img {
+  width: 300px;
+  height: 45px;
+}
+.fab {
+  color: #fff;
+  margin: 10px;
+  size: 40px;
+}
+
+.video-container .video {
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.video-container .video video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }

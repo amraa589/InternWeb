@@ -19,13 +19,21 @@ export default function MemberSlide() {
       <Container>
       <Swiper 
       breakpoints={{
-        992: {
+        1200: {
           slidesPerView:5 ,
           slidesPerColumn:2
         },
+        992: {
+          slidesPerView:4 ,
+          slidesPerColumn:2
+        },
+        785: {
+          slidesPerView:3 ,
+          slidesPerColumn:1
+        },
         // when window width is >= 768px
         410: {
-          slidesPerView:3 ,
+          slidesPerView:2 ,
           slidesPerColumn:1 
         },
       }} 

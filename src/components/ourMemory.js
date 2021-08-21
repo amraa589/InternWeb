@@ -7,7 +7,7 @@ const OurMemory = () => {
     return (
         <>
         <div className="text-center mt-3">
-            <h2 className="text-primary "><ins >Бидний дурсамж</ins></h2>
+            <h2 className="text-primary"><ins>Бидний дурсамж</ins></h2>
         </div>
         <Container>
             <Memory/>
