@@ -35,7 +35,7 @@ const Memory = () => {
                         className="mySwiper2">
                             {data['img'].map((url,i)=>(
                                 <SwiperSlide key={i}>
-                                    <img src={url['url']} />
+                                    <img className="img-fluid" src={url['url']} />
                                 </SwiperSlide>
                             ))}
                             
@@ -59,8 +59,8 @@ const Memory = () => {
                         className="mySwiper1 mt-3"
                         >
                             {data['img'].map((url,i)=>(
-                                <SwiperSlide key={i} style={{height:'140px'}}>
-                                    <img src={url['url']} />
+                                <SwiperSlide key={i} style={{height:''}}>
+                                    <img className="img-fluid" src={url['url']} />
                                 </SwiperSlide>
                             ))}
                         </Swiper>

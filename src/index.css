@@ -77,8 +77,6 @@ nav {
 }
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -488,12 +486,6 @@ nav {
   border-radius: 1rem;
   overflow: hidden;
 }
-
-.video-container .video video {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  outline: none;
-  border: none;
-  cursor: pointer;
+.modal-body{
+ padding: 0;
 }

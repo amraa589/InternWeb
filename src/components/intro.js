@@ -35,8 +35,8 @@ const Intro = () => {
             </Row>
             <Row className="mt-3 mb-5">
                <Col lg="4" md="4" sm="12" className="intro-intro zoom ">
-                <div className="card text-center p-2 justify-content-center">
-                    <div className="text-center mt-3">
+                <div className="card text-center p-2 justify-content-center mt-3">
+                    <div className="text-center ">
                         <img src="	http://digitalexpert.golomtbank.com/src-intern2k20/image/coding.svg" className="card-image" alt="..."/>
                     </div>
                     <div className="card-body">
@@ -46,8 +46,8 @@ const Intro = () => {
                 </div>
                </Col>
                <Col lg="4" md="4" sm="12" className="intro-intro zoom">
-                <div className="card mt-5 p-2 text-center">
-                    <div className="text-center mt-3">
+                <div className="card mt-4 p-2 text-center">
+                    <div className="text-center ">
                         <img src="http://digitalexpert.golomtbank.com/src-intern2k20/image/wage.svg" className="card-image" alt="..."/>
                     </div>
                     <div className="card-body">
@@ -57,8 +57,8 @@ const Intro = () => {
                     </div>
                </Col>
                <Col lg="4" md="4" sm="12" className="intro-intro zoom">
-               <div className="card p-2 text-center">
-                    <div className="text-center mt-3">
+               <div className="card p-2 text-center mt-3">
+                    <div className="text-center ">
                         <img src="http://digitalexpert.golomtbank.com/src-intern2k20/image/team_meeting.svg" className="card-image" alt="..."/>
                     </div>
                 <div className="card-body">
@@ -84,7 +84,7 @@ const Intro = () => {
             "bulletActiveClass":'swiper-pagination-bullet-active'
             }} className="mySwiper-video">  
             {urls.map((url,i)=>(
-                <SwiperSlide key={i} className="intro-video"> <Video url={url['url']}/>  </SwiperSlide>
+                <SwiperSlide key={i} className="intro-video"> <Video url={url['url']} index={i}/>  </SwiperSlide>
             ))}
             </Swiper>
             </Row>
