@@ -84,7 +84,7 @@ const Intro = () => {
             "bulletActiveClass":'swiper-pagination-bullet-active'
             }} className="mySwiper-video">  
             {urls.map((url,i)=>(
-                <SwiperSlide key={i} className="intro-video"> <Video url={url['url']} index={i}/>  </SwiperSlide>
+                <SwiperSlide key={i} className="intro-video"> <Video videoUrl={url['videoUrl']} imgUrl={url['imgUrl']} />  </SwiperSlide>
             ))}
             </Swiper>
             </Row>

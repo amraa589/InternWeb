@@ -1,14 +1,14 @@
 [
     {
-        "url":"https://www.youtube.com/embed/bvvss3Mf88A"
+        "videoUrl":"https://www.youtube.com/embed/bvvss3Mf88A",
+        "imgUrl":"https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
     },
     {
-        "url":"https://youtu.be/4BZbbG0XGhQ"
+        "videoUrl":"https://www.youtube.com/embed/bvvss3Mf88A",
+        "imgUrl":"https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
     },
     {
-        "url":"video url 2"
-    },
-    {
-        "url":"video url 3"
+        "videoUrl":"https://www.youtube.com/embed/bvvss3Mf88A",
+        "imgUrl":"https://mdbootstrap.com/img/screens/yt/screen-video-1.jpg"
     }
 ]
